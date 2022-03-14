@@ -54,7 +54,7 @@ else {
 
 // Problem-3
 
-const friendList = ["Shahin", "Naim", "Shuvo"];
+/* const friendList = ["Shahin", "Naim", "Shuvo"];
 
 const arrayLength = friendList.length;
 friendList.push("Manik");
@@ -65,4 +65,33 @@ console.log(arrayLength);
 console.log(friendList);
 console.log(friendList.indexOf("Shahin"));
 console.log(friendList.includes("Naim"));
+ */
 
+// Problem-4
+
+// for loop technique-1
+/* for (let i = 1; i <= 10; i++) {
+    console.log(i);
+} */
+
+// for loop technique-2
+/* const technology = ["Computer", "Electrical", "Electronics", "Mechanical", "Auto Mobile", "RAC"];
+
+for (const name of technology) {
+    console.log(name);
+} */
+
+// for loop technique-3
+/* const student = { name: "Arif", technology: "Computer", roll: 112864 };
+
+for (const key in student) {
+    console.log(key, ":", student[key]);
+} */
+
+// while loop
+
+let num = 1;
+while (num <= 10) {
+    console.log(num);
+    num++;
+}
