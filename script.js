@@ -226,7 +226,21 @@ console.log(twoPara(1, 1)); */
 
 // Problem-4
 // Array destructuring
+
+// technique-1
 /* const student = { name: "Arif", id: 112864 };
 
 const { name } = student;
 console.log(name); */
+
+// technique-2
+const technology = {
+    name: "Computer",
+    teachers: {
+        instructor: "Al-Amin Sir",
+        juniorInstructor: "Mizan Sir, Hasan Sir"
+    }
+}
+
+const { instructor } = technology.teachers;
+console.log(instructor);
