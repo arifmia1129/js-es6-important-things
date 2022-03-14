@@ -90,8 +90,39 @@ for (const key in student) {
 
 // while loop
 
-let num = 1;
+/* let num = 1;
 while (num <= 10) {
     console.log(num);
     num++;
+} */
+
+// Problem-5
+
+// function technique-1
+
+/* function getting() {
+    console.log("Good morning Sir/Mam");
 }
+
+getting(); */
+
+// function technique-2
+
+/* function sum(num1, num2) {
+    const sum = num1 + num2;
+    return sum;
+}
+
+const result = sum(2, 3);
+console.log(result); */
+
+// function technique-3
+// default parametar
+
+/* function sum(num1, num2 = 0) {
+    const sum = num1 + num2;
+    return sum;
+}
+
+const result = sum(3);
+console.log(result); */
