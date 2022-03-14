@@ -174,3 +174,11 @@ const nasib = {
 }
 student.semesterfee.apply(nasib, [1000]);
 console.log(nasib); */
+
+
+
+// ES6 
+
+// Problem-1
+const name = "Arif";
+console.log(`Welcome Sir ${name}`);
