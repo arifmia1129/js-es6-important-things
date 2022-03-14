@@ -215,11 +215,18 @@ console.log(twoPara(2, 2)); */
 
 // technique-4
 
-const twoPara = (num1, num2) => {
+/* const twoPara = (num1, num2) => {
     const newNum1 = num1 + 5;
     const newNum2 = num2 + 5;
     const mul = newNum1 * newNum2;
     return mul;
 }
 
-console.log(twoPara(1, 1));
+console.log(twoPara(1, 1)); */
+
+// Problem-4
+// Array destructuring
+/* const student = { name: "Arif", id: 112864 };
+
+const { name } = student;
+console.log(name); */
