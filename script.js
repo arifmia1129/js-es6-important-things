@@ -177,8 +177,17 @@ console.log(nasib); */
 
 
 
-// ES6 
+// ES6
 
 // Problem-1
-const name = "Arif";
-console.log(`Welcome Sir ${name}`);
+// Template String
+
+/* const name = "Arif";
+console.log(`Welcome Sir ${name}`); */
+
+// Problem-2
+// Spread Operator
+
+const numbers = [1, 2, 3, 4];
+const newNubmbers = [...numbers, 5];
+console.log(newNubmbers);
