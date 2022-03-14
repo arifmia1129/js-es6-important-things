@@ -249,3 +249,16 @@ console.log(instructor); */
 // Default parameter
 /* const sum = (num1, num2 = 0) => num1 + num2;
 console.log(sum(2)); */
+
+// Problem-7
+// Optional Chaining
+const technology = {
+    name: "Computer",
+    teachers: {
+        instructor: "Al-Amin Sir",
+        juniorInstructor: "Mizan Sir, Hasan Sir"
+    }
+}
+
+const principal = technology?.principal;
+console.log(principal);
