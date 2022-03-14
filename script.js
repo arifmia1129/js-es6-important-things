@@ -301,3 +301,10 @@ numbers.forEach(number => {
     console.log(number);
 }) */
 
+
+// Ternary operator
+
+let name = "Arif";
+console.log(`${name === "Arif" ? name : "Your name not found"}`);
+name = "Binu";
+console.log(`${name === "Arif" ? name : "Your name not found"}`);
