@@ -292,7 +292,7 @@ const findedArray = numbers.find(number => number > 10);
 console.log(findedArray); */
 
 
-// forEach operation in Array 
+// forEach operation in Array
 
 
 /* const numbers = [1, 20, 3, 23, 43, 9, 6, 90, 32, 28];
@@ -304,7 +304,18 @@ numbers.forEach(number => {
 
 // Ternary operator
 
-let name = "Arif";
+/* let name = "Arif";
 console.log(`${name === "Arif" ? name : "Your name not found"}`);
 name = "Binu";
-console.log(`${name === "Arif" ? name : "Your name not found"}`);
+console.log(`${name === "Arif" ? name : "Your name not found"}`); */
+
+
+// Operation in array 
+
+/* const obj = { name: "Arif", age: 21, phone: "01849676331" };
+
+const keys = Object.keys(obj);
+console.log(keys);
+
+const values = Object.values(obj);
+console.log(values); */
