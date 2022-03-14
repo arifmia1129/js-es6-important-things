@@ -252,7 +252,7 @@ console.log(sum(2)); */
 
 // Problem-7
 // Optional Chaining
-const technology = {
+/* const technology = {
     name: "Computer",
     teachers: {
         instructor: "Al-Amin Sir",
@@ -261,4 +261,43 @@ const technology = {
 }
 
 const principal = technology?.principal;
-console.log(principal);
+console.log(principal); */
+
+
+// Array Operation
+
+// Map operation in array
+
+/* const numbers = [1, 20, 3, 23, 43, 9, 6, 90, 32, 28];
+
+const mapedArray = numbers.map(number => number * 2);
+console.log(mapedArray); */
+
+
+
+// filter operation in array
+/* const numbers = [1, 20, 3, 23, 43, 9, 6, 90, 32, 28];
+
+const filteredArray = numbers.filter(number => number > 10);
+console.log(filteredArray); */
+
+
+
+// find operation in array
+
+
+/* const numbers = [1, 20, 3, 23, 43, 9, 6, 90, 32, 28];
+
+const findedArray = numbers.find(number => number > 10);
+console.log(findedArray); */
+
+
+// forEach operation in Array 
+
+
+/* const numbers = [1, 20, 3, 23, 43, 9, 6, 90, 32, 28];
+
+numbers.forEach(number => {
+    console.log(number);
+}) */
+
