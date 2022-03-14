@@ -234,7 +234,7 @@ const { name } = student;
 console.log(name); */
 
 // technique-2
-const technology = {
+/* const technology = {
     name: "Computer",
     teachers: {
         instructor: "Al-Amin Sir",
@@ -243,4 +243,9 @@ const technology = {
 }
 
 const { instructor } = technology.teachers;
-console.log(instructor);
+console.log(instructor); */
+
+// Problem-6
+// Default parameter
+/* const sum = (num1, num2 = 0) => num1 + num2;
+console.log(sum(2)); */
