@@ -1,4 +1,6 @@
 // Problem-1
+// Variable
+
 /* let temparetureNow = 30;
 temparetureNow = 35;
 console.log("Let variable example:", temparetureNow);
@@ -7,6 +9,7 @@ const wifeName = "Binu";
 console.log("Const variable example:", wifeName); */
 
 // Problem-2.1
+// relational operator
 
 /* const num1 = 25;
 const num2 = 52;
@@ -36,6 +39,7 @@ if (num1 <= num2) {
 } */
 
 // Problem-2.2
+// Condition
 
 /* const age = 18;
 const gender = "Female";
@@ -53,7 +57,7 @@ else {
 } */
 
 // Problem-3
-
+// Array
 /* const friendList = ["Shahin", "Naim", "Shuvo"];
 
 const arrayLength = friendList.length;
@@ -68,6 +72,7 @@ console.log(friendList.includes("Naim"));
  */
 
 // Problem-4
+// loop
 
 // for loop technique-1
 /* for (let i = 1; i <= 10; i++) {
@@ -97,6 +102,7 @@ while (num <= 10) {
 } */
 
 // Problem-5
+// function
 
 // function technique-1
 
@@ -126,3 +132,45 @@ console.log(result); */
 
 const result = sum(3);
 console.log(result); */
+
+// Problem-6
+// Objtect
+/* const student = {
+    name: "Arif",
+    technology: "Computer",
+    balance: 5000,
+    roll: 112864,
+    subject: ["Principal of software", "Networking", "Microprocessor"],
+    teacher: { instructor: "Al-Amin Sir", juniorInstructor: "Mizan Sir, Hasan Sir" },
+    semesterfee: function (fee) {
+        this.balance = this.balance - fee;
+    }
+}
+
+student.semesterfee(1000);
+console.log(student.balance);
+
+const naim = {
+    name: "Naim",
+    balance: 4000
+}
+
+const naimFee = student.semesterfee.bind(naim);
+
+naimFee(1000);
+console.log(naim);
+
+const shuvo = {
+    name: "shuvo",
+    balance: 6000
+}
+
+student.semesterfee.call(shuvo, 1000);
+console.log(shuvo);
+
+const nasib = {
+    name: "nasib",
+    balance: 5500
+}
+student.semesterfee.apply(nasib, [1000]);
+console.log(nasib); */
