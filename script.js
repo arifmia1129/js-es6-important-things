@@ -52,5 +52,17 @@ else {
     console.log("You don't allow for married");
 } */
 
-// Problem-
+// Problem-3
+
+const friendList = ["Shahin", "Naim", "Shuvo"];
+
+const arrayLength = friendList.length;
+friendList.push("Manik");
+friendList.pop("Manik");
+
+console.log(friendList);
+console.log(arrayLength);
+console.log(friendList);
+console.log(friendList.indexOf("Shahin"));
+console.log(friendList.includes("Naim"));
 
