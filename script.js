@@ -188,6 +188,38 @@ console.log(`Welcome Sir ${name}`); */
 // Problem-2
 // Spread Operator
 
-const numbers = [1, 2, 3, 4];
+/* const numbers = [1, 2, 3, 4];
 const newNubmbers = [...numbers, 5];
-console.log(newNubmbers);
+console.log(newNubmbers); */
+
+// Problem-3
+// Arrow function
+
+// technique-1
+
+/* const zeroPara = () => console.log(9);
+zeroPara(); */
+
+// technique-2
+
+/* const onePare = (num) => num * 12;
+console.log(onePare(1)); */
+
+// technique-3
+/* const twoPara = (num1, num2) => {
+    const sum = num1 + num2;
+    const div = sum / 4;
+    return div;
+}
+console.log(twoPara(2, 2)); */
+
+// technique-4
+
+const twoPara = (num1, num2) => {
+    const newNum1 = num1 + 5;
+    const newNum2 = num2 + 5;
+    const mul = newNum1 * newNum2;
+    return mul;
+}
+
+console.log(twoPara(1, 1));
